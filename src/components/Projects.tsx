@@ -93,7 +93,7 @@ export default function Projects() {
                       <div className="project-card__gallery">
                         {p.images.map((img, i) => (
                           <img
-                            className="project-card__image"
+                            className={`project-card__image${img.includes('Flappy_bird') || img.includes('assembler_rag') ? ' project-card__image--small' : ''}`}
                             key={i}
                             src={`${import.meta.env.BASE_URL}${img}`}
                             alt={`${p.title} screenshot ${i + 1}`}

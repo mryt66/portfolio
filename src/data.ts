@@ -65,7 +65,7 @@ export const projectsData = [
     images: ["projects/assembler_rag.png"],
   },
   {
-    title: "AAC Detection — Explainable AI Pipeline",
+    title: "AAC Detection - Explainable AI Pipeline",
     description:
       "Automated medical image analysis pipeline for detecting and scoring aortic arch calcifications (AAC) on radiological images. A two-stage approach first localizes the aortic arch with YOLO, then classifies the calcification degree with VGG19. The pipeline includes multiple explainability methods to interpret model predictions.",
     tags: ["YOLO", "VGG19", "LIME", "Grad-CAM", "Medical Imaging", "XAI", "Python"],
@@ -96,7 +96,7 @@ export const projectsData = [
     ],
   },
   {
-    title: "Flappy Bird — DQN Agent",
+    title: "Flappy Bird - DQN Agent",
     description:
       "A Deep Q-Network agent trained in a Unity environment to play Flappy Bird. Unity provides the game simulation while Python handles the neural network and learning loop. Includes experiment tracking with Wandb and a Pygame visualization.",
     tags: ["PyTorch", "DQN", "Unity", "Wandb", "Python"],
@@ -105,7 +105,7 @@ export const projectsData = [
     images: ["projects/Flappy_bird.gif"],
   },
   {
-    title: "Multimodal RAG — The Batch",
+    title: "Multimodal RAG - The Batch",
     description:
       "End-to-end RAG system with multimodal capabilities (text + images) built for The Batch news articles. Features text-only, image-only, or combined queries with smart weighting, a Streamlit chat interface, automatic RAGAS evaluation, and an analytics dashboard. Powered by ChromaDB, CLIP, and Gemini 2.5 Flash.",
     tags: ["ChromaDB", "CLIP", "Gemini", "Streamlit", "RAG", "RAGAS"],
@@ -115,12 +115,12 @@ export const projectsData = [
     images: ["projects/mm_rag.png"],
   },
   {
-    title: "ATTA — Voice Chatbot",
+    title: "ATTA - Voice Chatbot",
     description:
       "Voice chatbot that receives audio input, transcribes it with a fine-tuned Whisper model (marcsixtysix/whisper-base-pl), processes the text through a fine-tuned Gemma-3 model via Ollama, and returns synthesized speech via edge_tts. Full pipeline running on FastAPI.",
     tags: ["Whisper", "Ollama", "FastAPI", "edge_tts", "Fine-tuning", "Gemma"],
     repo: "https://github.com/mryt66/ATTA",
-    expandable: true,
+    expandable: false,
     images: [],
   },
 ];

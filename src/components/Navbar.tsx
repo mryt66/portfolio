@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
       <span className="navbar__logo" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-        MK
+        MR
       </span>
       <button className="navbar__hamburger" onClick={() => setOpen(!open)} aria-label="menu">
         <span />

@@ -167,6 +167,10 @@
   background: #fff;
 }
 
+.project-card__image--small {
+  width: 33%;
+}
+
 .xai-methods__title {
   font-size: 0.8rem;
   text-transform: uppercase;

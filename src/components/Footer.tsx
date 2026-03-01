@@ -29,9 +29,6 @@ export default function Footer() {
           Hugging Face
         </a>
       </div>
-      <p className="footer__copy">
-        &copy; {new Date().getFullYear()} Marcin. Built with React &amp; TypeScript.
-      </p>
     </footer>
   );
 }

@@ -10,11 +10,11 @@ export default function Hero() {
       <div className="hero__content">
         <p className="hero__greeting">Hello, I'm</p>
         <h1 className="hero__name">
-          <span>Marcin</span>
+          <span>Marcin Ryt</span>
         </h1>
         <p className="hero__role">
           AI Engineer with a wide range of skills spanning ML, NLP, Computer
-          Vision, and AI systems — building RAG pipelines, ASR solutions, AI
+          Vision, and AI systems - building RAG pipelines, ASR solutions, AI
           agents, and explainable AI with modern fine-tuning and MLOps practices.
         </p>
 
@@ -65,9 +65,7 @@ export default function Hero() {
             rel="noreferrer"
             aria-label="Hugging Face"
           >
-            <svg width="24" height="24" viewBox="0 0 95 88" fill="none">
-              <path d="M47.2 0C26.6 0 9.4 13.7 4.3 32.5c-1.2 4.4.5 9.1 4.2 11.8 2.3 1.7 3.9 4.3 4 7.2.2 4.8-3.5 8.8-8.3 9C1.9 60.6 0 62.6 0 64.9v5.6c0 2.4 2 4.4 4.4 4.3 8.2-.3 15-6.1 16.6-13.8.3-1.4 1.9-2.1 3.1-1.3 3.9 2.6 8.5 4.3 13.5 4.8 1.3.1 2.3 1.2 2.3 2.5v20.6c0 2.5 2 4.4 4.4 4.4h5.6c2.5 0 4.5-2 4.4-4.4V67c0-1.3 1-2.4 2.3-2.5 5-.5 9.6-2.2 13.5-4.8 1.2-.8 2.8-.1 3.1 1.3 1.6 7.7 8.4 13.5 16.6 13.8 2.4.1 4.4-1.9 4.4-4.3v-5.6c0-2.3-1.9-4.3-4.2-4.4-4.8-.2-8.5-4.2-8.3-9 .1-2.9 1.7-5.5 4-7.2 3.7-2.7 5.4-7.4 4.2-11.8C84.9 13.7 67.8 0 47.2 0Zm-13 47.5c-4.6 0-8.3-4.5-8.3-10s3.7-10 8.3-10 8.3 4.5 8.3 10-3.7 10-8.3 10Zm26.1 0c-4.6 0-8.3-4.5-8.3-10s3.7-10 8.3-10 8.3 4.5 8.3 10-3.7 10-8.3 10Z" fill="currentColor"/>
-            </svg>
+            <img src={`${import.meta.env.BASE_URL}hf.png`} width="24" height="24" alt="Hugging Face" style={{ filter: 'brightness(0) invert(1)' }} />
           </a>
         </div>
       </div>
