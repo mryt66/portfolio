@@ -65,7 +65,7 @@ export default function Hero() {
             rel="noreferrer"
             aria-label="Hugging Face"
           >
-            <img src={`${import.meta.env.BASE_URL}hf.png`} width="24" height="24" alt="Hugging Face" style={{ filter: 'brightness(0) invert(1)' }} />
+            <img src={`${import.meta.env.BASE_URL}hf-logo.svg`} width="24" height="24" alt="Hugging Face" style={{ filter: 'brightness(0) invert(1)' }} />
           </a>
         </div>
       </div>
