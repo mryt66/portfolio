@@ -23,7 +23,7 @@ export const skills: SkillCategory[] = [
   },
   {
     label: "DevOps & Backend",
-    items: ["Docker", "Kubernetes", "Azure DevOps", "CI/CD", "FastAPI"],
+    items: ["Docker", "Kubernetes", "Azure DevOps", "CI/CD", "FastAPI", "Robyn"],
   },
   {
     label: "Cloud & Storage",
